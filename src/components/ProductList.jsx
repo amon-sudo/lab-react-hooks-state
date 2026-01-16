@@ -3,10 +3,10 @@ import ProductCard from "./ProductCard";
 
 // Sample products
 export const sampleProducts = [
-  { id: 1, name: "Apple", price: "$1.00", category: "Fruits", inStock: true },
-  { id: 2, name: "Milk", price: "$2.50", category: "Dairy", inStock: false },
-  { id: 3, name: "Banana", price: "$0.75", category: "Fruits", inStock: true },
-  { id: 4, name: "Cheese", price: "$3.00", category: "Dairy", inStock: true },
+  { id: 1, name: "Apple", price: "Ksh. 40.00", category: "Fruits", inStock: true },
+  { id: 2, name: "Milk", price: "Ksh. 35.50", category: "Dairy", inStock: false },
+  { id: 3, name: "Banana", price: "Ksh. 15.75", category: "Fruits", inStock: true },
+  { id: 4, name: "Family Bread", price: "Ksh. 200.00", category: "Dairy", inStock: true },
 ];
 
 const ProductList = ({ addToCart, category }) => {
